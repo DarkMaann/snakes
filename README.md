@@ -1,3 +1,3 @@
 # snakes
-Simple snake game.
+Simple browser snake game.
 Made just for fun.
