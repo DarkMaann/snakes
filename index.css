@@ -1,0 +1,103 @@
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0px
+}	
+
+#main {
+	background-color: rgb(120,120,120);
+	width: calc(100% - 10px);
+	height: calc(100% - 10px);
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	z-index: -1
+}
+
+#game {
+	z-index: 2;
+	background-color: rgb(20,20,20);
+	position: absolute;
+	bottom: 25%;
+	right: 25%
+}
+
+#scoreBoard1 {
+	z-index: 2;
+	background-color: rgb(20,20,20);
+	position: absolute;
+	bottom: 25%;
+	left: 8.5%;
+	width: 9vw;
+	height: 10vh;
+	display: table;
+	border-style: solid;
+	border-color: yellow;
+	overflow: hidden
+}
+
+#scoreBoard2 {
+	z-index: 2;
+	background-color: rgb(20,20,20);
+	position: absolute;
+	bottom: 25%;
+	right: 8.5%;
+	width: 9vw;
+	height: 10vh;
+	display: table;
+	border-style: solid;
+	border-color: yellow;
+	overflow-x: hidden
+}
+
+#name {
+	z-index: 1;
+	display: table;
+	color: lime;
+	position: absolute;
+	width: 60vw;
+	height: 10vh;
+	top: 10vh;
+	left: 19.5vw;
+	border-style: solid
+}
+
+#description {
+	z-index: 1;
+	color: khaki;
+	position: absolute;
+	width: 50vw;
+	height: 10vh;
+	bottom: 10vh;
+	left: 24.5vw;
+	display: table;
+	border-style: solid
+}
+
+#nameSpan {
+	text-align: center;
+	color: lime;
+	font-size: 7vw;
+	font-size: 7vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#descriptionSpan {
+	text-align: center;
+	color: khaki;
+	font-size: 3.2vw;
+	font-size: 3.2vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.score {
+	text-align: right;
+	color: rgb(255,0,0);
+	font-size: 2vw;
+	font-size: 9vh;
+	display: table-cell;
+	vertical-align: middle;
+}
