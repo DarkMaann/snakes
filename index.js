@@ -91,7 +91,7 @@ class foodSquare extends Square {
 	}
 
 	sameColor(x = window.xF, y = window.yF, h = 10, w = 10, color = "red") {
-		val = setInterval(() => {
+		foodInterval = setInterval(() => {
 			this.ctx.beginPath();
 			this.ctx.fillStyle = color;
 			this.ctx.fillRect(x, y, h, w);
